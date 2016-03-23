@@ -3,6 +3,6 @@ define(["require", "exports"], function (require, exports) {
     function greeter(person) {
         return "Hello, " + person;
     }
-    exports.greeter = greeter;
+    return greeter;
 });
-//# sourceMappingURL=greeter.js.map
+//# sourceMappingURL=dependency.js.map
