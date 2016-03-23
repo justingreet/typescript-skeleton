@@ -15,3 +15,5 @@ dependency on requirejs in karma.conf.js didn't exist. So do the following:
 
 1) npm install requirejs --save-dev
 2) npm install karma-requirejs --save-dev
+
+I'm causing problems...
