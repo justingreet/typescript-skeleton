@@ -1,6 +1,8 @@
-function greeter(person) {
-    return "Hello, " + person;
-}
-var user = 'jelly';
-document.body.innerHTML = greeter(user);
+define(["require", "exports"], function (require, exports) {
+    "use strict";
+    function greeter(person) {
+        return "Hello, " + person;
+    }
+    exports.greeter = greeter;
+});
 //# sourceMappingURL=greeter.js.map
