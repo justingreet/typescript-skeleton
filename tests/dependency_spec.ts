@@ -1,6 +1,5 @@
 /// <reference path="../types/jasmine.d.ts" />
-import greeter = require("app/dependency");
-
+import greeter = require("../app/dependency");
 describe('greeter', function() {
     it('should correctly greet.', function() {
         // Given the name of the person to greet.

@@ -1,4 +1,4 @@
-define(["require", "exports", "app/dependency"], function (require, exports, greeter) {
+define(["require", "exports", "../app/dependency"], function (require, exports, greeter) {
     "use strict";
     describe('greeter', function () {
         it('should correctly greet.', function () {
